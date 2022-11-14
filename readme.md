@@ -3,8 +3,8 @@
 
 *by Tim Middleton*
 
-Demo Video:   
-Hackathon Entry:   
+Demo Video:  tba 
+Hackathon Entry:  https://devpost.com/software/zdna 
 
 For this hackathon I created a Zokrates ZKP function which compares a DNA reference sample to a scene sample.
 Using a zero knowledge proof, a person can eliminate themselves as a suspect, while keeping their
