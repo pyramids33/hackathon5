@@ -10,21 +10,27 @@ For this hackathon I created a Zokrates ZKP function which compares a DNA refere
 Using a zero knowledge proof, a person can eliminate themselves as a suspect, while keeping their
 DNA information private.
 
+## Rationale
+
+During criminal investigations, DNA samples are taken from crime scenes.  
+They may also be requested of people related to the case for the purpose of elimination.  
+This system would minimise the need to keep large databases of DNA profiles 
+of non-suspects, or staff, which may be hacked, stolen or misused. 
+
 ## Overview
 
-There are two phases. In phase one, Alice requests a lab to obtain her DNA profile. A certificate is
-generated with a hash of the information and timestamped on the blockchain. She can now self custody this 
-information and the lab is required to destroy any copies.  
+In this process there are two phases. 
 
-In phase two, she is given a scene sample and the ZKP program by an investigator. She uses the ZKP to 
-prove that her DNA is not a match. The investigator can check the certificate against the blockchain.
+In phase one, Alice requests a lab to obtain her DNA profile.  
+A certificate is generated with a hash of the information and timestamped on the blockchain.  
+She can now self custody this information and the lab is required to destroy any copies.   
+
+In phase two, she is given a scene sample and the ZKP program by an investigator.  
+She uses the ZKP to prove that her DNA is not a match.  
+The investigator can check the certificate against the blockchain.  
 
 ![](./diagram.jpg)
 
-## Rationale
-
-Minimise the need for keeping large databases of everyone's DNA profiles, especially non-suspects, 
-which may be hacked, stolen or misused.
 
 ## CLI
 ```
@@ -159,4 +165,3 @@ This is a proof of concept. There are some limitations:
 
  - https://zokrates.github.io/toolbox/zokrates_js.html
  - https://www.dnainquiry.qld.gov.au/
- 
