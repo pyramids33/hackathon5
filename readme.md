@@ -3,7 +3,7 @@
 
 *by Tim Middleton*
 
-Demo Video:  tba 
+Demo Video:  tba   
 Hackathon Entry:  https://devpost.com/software/zdna 
 
 For this hackathon I created a Zokrates ZKP function which compares a DNA reference sample to a scene sample.
