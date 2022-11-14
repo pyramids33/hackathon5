@@ -1,3 +1,4 @@
 node_modules/*
-build/*
-proof.json
+example/program/*
+example/proof.json
+example/cert.tx

@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "zkpn": "./bin/zkpn"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "BSV",
   "dependencies": {
     "bsv": "^2.0.10",
+    "commander": "^9.4.1",
     "zokrates-js": "^1.1.4"
   }
 }
