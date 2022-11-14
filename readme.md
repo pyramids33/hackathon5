@@ -61,6 +61,9 @@ In the repository there is an example folder with a sample private.json and publ
 // Bob receive cert.tx and verify the proof.json 
 > zdna verify ./example/program/keypair.vk.json ./example/public.json ./example/cert.tx ./example/proof.json
 
+// Or it could be run like this
+// > ./bin/zdna ...args
+//
 ```
 ## Format
 
