@@ -49,6 +49,10 @@ Commands:
 In the repository there is an example folder with a sample private.json and public.json
 
 ```
+// run with Node.js version 18.4.0
+//
+
+
 // Bob compile
 > zdna compile ./example/program
 
