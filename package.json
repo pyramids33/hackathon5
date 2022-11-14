@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "zkpn": "./bin/zkpn"
+    "zdna": "./bin/zdna"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
