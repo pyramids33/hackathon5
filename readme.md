@@ -133,7 +133,7 @@ This comparison adds 1 to the match count.
 ```
 
 The comparison function accepts the private.json, hash of private.json, public.json, and returns match count.  
-The hash is checked inside the function so it will not verify if the hash is incorrect.
+The hash is checked inside the function.
 
 ```
 // Signature of comparison function
