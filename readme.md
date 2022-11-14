@@ -154,3 +154,9 @@ This is a proof of concept. There are some limitations:
  - As mentioned, the cert.tx could contain more information in the hash, it could be similar to a birth certificate,
  and allow for other types of proofs.
  - I didn't provide any way of funding and broadcasting the tx in this project, it could be added to another wallet.
+
+## Reference
+
+ - https://zokrates.github.io/toolbox/zokrates_js.html
+ - https://www.dnainquiry.qld.gov.au/
+ 
