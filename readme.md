@@ -165,4 +165,5 @@ This is a proof of concept. There are some limitations:
 
  - https://zokrates.github.io/toolbox/zokrates_js.html
  - https://www.promega.com.au/products/forensic-dna-analysis-ce/str-amplification/powerplex-21-system/?catNum=DC8902
+ - https://www.promega.com/-/media/files/promega-worldwide/north-america/promega-us/webinars-and-events/genemarker-hid-webinar.pdf?la=en
  - https://www.dnainquiry.qld.gov.au/
