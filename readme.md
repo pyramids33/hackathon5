@@ -82,7 +82,7 @@ In the repository there is an example folder with a sample private.json and publ
 This is the private input to the zero-knowledge proof.   
 This file consists of a json array of 42 numbers, 0 - 255.  
 They are actually 21 pairs of numbers.    
-Each pair represents a different type of DNA information.  
+Each pair represents a different type (loci) of DNA information.  
 Zero means no information.   
 
 ```
@@ -109,7 +109,7 @@ This version is very simplified, it could be extended with more information and 
 This is the second public input to the zero-knowledge proof.   
 This file consists of a json array of 231 numbers, 0 - 255.  
 They are actually 21 sets of 11 numbers.   
-Each set represents a different type of DNA information.  
+Each set represents a different type (loci) of DNA information.  
 Zero means no information.   
 
 public.json - a json array of 231 numbers, 0 - 255.
@@ -164,4 +164,5 @@ This is a proof of concept. There are some limitations:
 ## Reference
 
  - https://zokrates.github.io/toolbox/zokrates_js.html
+ - https://www.promega.com.au/products/forensic-dna-analysis-ce/str-amplification/powerplex-21-system/?catNum=DC8902
  - https://www.dnainquiry.qld.gov.au/
